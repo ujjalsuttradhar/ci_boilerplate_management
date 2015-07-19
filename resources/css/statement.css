@@ -1,0 +1,142 @@
+/* 
+    Document   : statement
+    Created on : Oct 6, 2014, 2:41:00 AM
+    Author     : ujjal
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#statement, #statement img{
+    width:100%;
+}
+
+#statement img{
+    height: 120px;
+}
+
+.col-xs-12{
+    width:100%;
+}
+
+.text-center{
+    text-align:center;
+}
+
+
+
+/****datatables****/
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+table {
+    max-width: 100%;
+    background-color: transparent;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>th, .table>caption+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>td, .table>thead:first-child>tr:first-child>td {
+    border-top: 0;
+}
+.table-bordered>thead>tr>th, .table-bordered>thead>tr>td {
+    border-bottom-width: 2px;
+}
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: 1px solid #ddd;
+}
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+th {
+    text-align: left;
+}
+
+user agent stylesheetth {
+    font-weight: bold;
+}
+user agent stylesheettd, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheettable {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+html, body {
+    overflow-x: hidden!important;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100%;
+    background: #f9f9f9;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+#footer{
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  width: 98.7%;
+  font-weight: bold;
+  height: 21px;
+  position: absolute;
+  background-color: #FF0000;
+  color: white;
+  bottom: 0px;
+}
+
+
+h4{
+    padding: 3px 0px;
+    margin:0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.border_none{
+    border: 0 !important;
+}
+
+.topMargin{
+    margin-top: 50px;
+}
+
+.topBorder{
+    border-top: 1px solid black;
+}
+
+.memo{
+    margin-top: 50px;
+}

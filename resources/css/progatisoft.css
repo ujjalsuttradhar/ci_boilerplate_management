@@ -1,0 +1,93 @@
+/* 
+    Document   : progatisoft
+    Created on : Aug 27, 2014, 11:43:54 PM
+    Author     : ujjal
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.top_margin_5
+{
+    margin-top : 5px !important;    
+}
+
+.form-box {
+    margin: 0px auto 0 auto;
+}
+
+/*Auto Suggestion using typeahed*/
+.typeahead, .tt-hint {
+    border: 2px solid #CCCCCC;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 16px;
+    /*height: 45px;*/
+    line-height: 30px;
+    outline: medium none;
+    padding: 8px 12px;
+    /*width: 450px;*/
+    background-color: #ffffff !important;
+ }
+ 
+.tt-dropdown-menu {
+    width: 400px;
+    margin-top: 5px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px 8px 8px 8px;
+    font-size: 18px;
+    color: #111;
+    background-color: #FFFFFF;
+}
+
+.typeahead:focus {
+  border: 0 !important;
+}
+
+.minHeightForViewMessage{
+    min-height: 300px;
+}
+
+
+#statement h4{
+    padding: 3px 0px;
+    margin:0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#statement .table{
+    margin-top: 20px;
+}
+
+.totalPrice{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+creditLimitReminder{
+    color: red;
+    font-size:14px;
+}
+
+.border_none{
+    border: 0 !important;
+}
+
+.topMargin{
+    margin-top: 50px;
+}
+
+.topBorder{
+    border-top: 1px solid black;
+}
+
+.memo{
+    margin-top: 50px;
+}
