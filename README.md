@@ -7,6 +7,6 @@ Boilerplate with CodeIgniter (PHP framework), AdminLTE (bootstrap template), MyS
 3. Open phpmyadmin, create a database and import ci_boilerplate_management.sql into that newly created database.
 4. If you want to change user's role from default one update roles table and open users_helper.php and update isAdmin() method.
 
-## Execution
+### Execution
 1. Open browser and hit your "base_url/"
 2. Login with admin/123
