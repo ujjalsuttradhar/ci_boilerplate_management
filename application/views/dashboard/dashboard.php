@@ -132,39 +132,16 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php
-                                if (count($orderList) > 0 && $orderList) {
-                                   foreach ($orderList as $orderItem) {
-                                       
-                                       $price = roundDecimalNumber($orderItem->total_price, 2);
-                                       $paid = roundDecimalNumber($orderItem->payment, 2);
-                                       $type = "Credit";
-                                       $class= "";
-                                       $showReceiveDue = "disabled";
-                                       if($orderItem->sale_type == 1)
-                                       {
-                                           $type = "Cash";
-                                           if($paid < $price)
-                                           {
-                                               $class = 'class="danger text-red text-bold"';
-                                               $showReceiveDue = "";
-                                           }
-                                       }
-                                       
-                                        echo '<tr '.$class.'>';
-                                        echo '<td>' . generateOrderID($orderItem->selling_date, $orderItem->order_id, strtoupper($orderItem->product), ($orderItem->sale_type == 3 ? TRUE:FALSE)). '</td>';
-                                        echo '<td>' . changeDateTimeFormat($orderItem->selling_date) . '</td>';
-                                        echo '<td>' . $orderItem->product . '</td>';
-                                        echo '<td>' . $orderItem->product.'-'.$orderItem->stock_id . '</td>';
-                                        echo '<td>' . setToZeroIfNULL($orderItem->selling_quantity) . '</td>';
-                                        echo '<td>' . $price . '</td>';
-                                        echo '<td>' . $paid . '</td>';
-                                        echo '<td>' . $type .'</td>';
-                                        echo '<td><a href="' . $base_url . 'sale/orders/details/' . $orderItem->product . '/'. $orderItem->order_id  .'" class="btn btn-success btn-sm" ' . '>Details</a></td>';
-                                        echo '</tr>';
-                                    }
-                                }
-                                ?>
+                                <tr>
+                                    <td>Order_ID</td>
+                                    <td>Order_Date</td>
+                                    <td>Product_Type</td>
+                                    <td>Stock_No</td>
+                                    <td>Selling_Quantity</td>
+                                    <td>Total_Price</td>
+                                    <td>Payment</td>
+                                    <td>Type</td>
+                                    <td>Action</td>
                             </tbody>
                             <tfoot>
                                 <tr>
